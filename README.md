@@ -1,10 +1,29 @@
 # Project-3-Analysis-of-Optimal-Policy-Learning-in-GridWorld-Using-SARSA-and-Q-Learning
 
 ## Overview:
-This project explores how two classic reinforcement learning algorithms — **SARSA** (on-policy) and **Q-Learning** (off-policy) — learn optimal policies in a simple 5×5 GridWorld environment with terminal and penalty states.
+This project explores how two classic reinforcement learning algorithms — **SARSA** (on-policy) and **Q-Learning** (off-policy) — learn optimal policies in a simple **5×5 GridWorld** environment with terminal and penalty states.
 
 The assignment focuses on:
 - Implementing a GridWorld environment with start, penalty (red), and terminal (black) states.
+
+> **Grid Layout Visualization:**  
+>
+> (S = Start / Blue, R = Penalty / Red, B = Terminal / Black)
+>
+> ```
+> +---+---+---+---+---+
+> | B |   |   |   | B |
+> +---+---+---+---+---+
+> |   |   |   |   |   |
+> +---+---+---+---+---+
+> | R | R |   | R | R |
+> +---+---+---+---+---+
+> |   |   |   |   |   |
+> +---+---+---+---+---+
+> | S |   |   |   |   |
+> +---+---+---+---+---+
+> ```
+
 - Learning and comparing policies using:
   - SARSA (ε-greedy)
   - Q-Learning (ε-greedy)
